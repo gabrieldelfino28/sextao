@@ -1,0 +1,95 @@
+.background{
+
+ position: fixed;
+ left:0;
+ right:0;
+ top:0;
+ z-index:-1;
+ display: block;
+ background-image: url("background.jpg");
+ width: 100%;
+ height: 100%;
+ -webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(23x);
+-ms-filter: blur(3px);
+filter: blur(3px);
+
+}
+.cabecario {
+	background-color: white;
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	text-shadow: 4px 4px 8px #00BFFF;
+	border-radius: 20px ;
+	font-style: bold;
+	height: 45px;
+}
+
+.conteudo {
+	background-color:#A9A9A9;
+
+	color: white;
+	font-family: Verdana;
+	border-radius: 15px;
+	margin-left: 80px;
+	margin-right: 80px;
+	opacity: 0.9;
+	height: 1900px;
+	text-shadow: 2px 2px #000;
+	font-size:18px;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+h3 {
+  margin-left: 50px;
+}
+
+ol {
+  text-shadow: 2px 2px #000;
+}
+
+li {
+  margin-left: 50px;
+  text-shadow: 2px 2px #000;
+}
+
+p {
+	margin-left:50px;
+  margin-right: 50px;
+
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 25%;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+dd {
+  font-size:14.5px;
+
+}
+
+dt {
+  font-size: 16px;
+  color: #B0E0E6;
+}
+
+.logo {
+	margin-left: 37%;
+	margin-right: %;
+	position: relative;
+
+}
