@@ -1,5 +1,4 @@
 .background{
-
  position: fixed;
  left:0;
  right:0;
@@ -11,34 +10,68 @@
  height: 100%;
  -webkit-filter: blur(3px);
 -moz-filter: blur(3px);
--o-filter: blur(23x);
+-o-filter: blur(3px);
 -ms-filter: blur(3px);
 filter: blur(3px);
-
 }
+
 .cabecario {
-	background-color: white;
+	background-color:#353b48;
+	margin-top:0%;
 	text-align: center;
 	color: white;
 	font-family: Verdana;
-	text-shadow: 4px 4px 8px #00BFFF;
+	text-shadow: 4px 4px 8px #0984e3;
 	border-radius: 20px ;
 	font-style: bold;
 	height: 45px;
 }
 
 .conteudo {
-	background-color:#A9A9A9;
-
+	background-color:#7f8c8d;
+    border: 2px solid #353b48;
 	color: white;
 	font-family: Verdana;
-	border-radius: 15px;
+	border-radius: 20px;
 	margin-left: 80px;
 	margin-right: 80px;
 	opacity: 0.9;
-	height: 1900px;
+	height: 1550px;
 	text-shadow: 2px 2px #000;
 	font-size:18px;
+}
+
+.logo {
+	margin-left: 80px;
+	margin-right: 80px;
+	position: relative;
+	background-color:#7f8c8d;
+	color: white;
+	border-radius: 20px;
+	border: 2px solid #353b48;
+	opacity: 0.9;
+	height: 300px;
+}
+
+#centro {
+	margin-left: 40%;
+	margin-top: 10px;
+}
+
+.table {
+	background-color:#7f8c8d;
+	color: white;
+	font-family: Verdana;
+	border-radius: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	opacity: 0.9;
+	height: auto;
+	text-shadow: 2px 2px #000;
+	font-size:16.5px;
+	line-height: 30px;
+    border: 2px solid #353b48;
+    text-align: center;
 }
 
 h1 {
@@ -52,44 +85,55 @@ h2 {
 }
 
 h3 {
-  margin-left: 50px;
+	margin-left: 50px;
 }
 
 ol {
-  text-shadow: 2px 2px #000;
+	text-shadow: 2px 2px #000;
 }
 
 li {
-  margin-left: 50px;
-  text-shadow: 2px 2px #000;
+	margin-left: 50px;
+	text-shadow: 2px 2px #000;
 }
 
 p {
 	margin-left:50px;
-  margin-right: 50px;
-
+	margin-right: 50px;
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 25%;
-  padding: 5px;
-  margin-left: 50px;
+ 	border: 1px solid #ddd;
+ 	border-radius: 25%;
+ 	padding: 5px;
+ 	margin-left: 50px;
 }
 
 dd {
-  font-size:14.5px;
-
+ 	font-size:14.5px;
 }
 
 dt {
-  font-size: 16px;
-  color: #B0E0E6;
+ 	font-size: 16px;
+ 	color: #B0E0E6;
 }
 
-.logo {
-	margin-left: 37%;
-	margin-right: %;
-	position: relative;
-
+hr {
+	height: 2px;
+	color: white;
+ 	background-color: white;
+ 	border: 2px;
+	opacity: 0.8;
 }
+
+h4 {
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	text-shadow: 4px 4px 8px #0984e3;
+	font-size: 24px;
+}
+
+
+
+
